@@ -1,0 +1,22 @@
+namespace forLoop.cs;
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        int num = 1234;
+        int product = 1;
+
+        while( num != 0){
+            product = product * (num % 10);
+
+            num = num / 10;
+        }
+
+        Console.WriteLine("Product of number is: " + product);
+
+
+
+
+    }
+}
